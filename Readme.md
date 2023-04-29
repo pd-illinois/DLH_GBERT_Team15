@@ -42,7 +42,7 @@ To prove the claims and ablations in the original paper and to test our ablation
 We used local CPU and on GPU - 1 x NVIDIA Tesla K80: Standard_NC6 (6 cores, 56 GB RAM, 380 GB disk).
 
 ## Baselines:
-## Model	        F1 score	  PR-AUC	Jaccard Score
+   Model	        F1 score	  PR-AUC	Jaccard Score
 G-Bert 	            0.6065 	  0.6906         0.4478   
 G-Bert G-	          0.6038	  0.6824	       0.4452    
 G-Bert G- P-			
