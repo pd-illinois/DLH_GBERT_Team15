@@ -10,13 +10,13 @@ Unnati Hasija : uhasija2@illinois.edu
 
 ## Steps to replicate/Reproducibility:
 
-# 1. Dependencies:
+## 1. Dependencies:
 
 To reproduce the results or to be able to execute the G-Bert code, we were missing some libraries. We created a list of those libraries in requirements.txt.
 You may install it using:
 $ pip install -r requirements.txt
 
-# 2. Training code:
+## 2. Training code:
 
 The dataset is split into training, validation and testing set in ratio of 0.6,0.2,0.2 respectively. The split is done in EDA.ipynb file train-id.txt, eval-id.txt, test-id.txt 
 and the files are stored accordingly.
