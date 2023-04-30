@@ -8,6 +8,10 @@ Prateek Dhiman : pdhiman2@illinois.edu
 
 Unnati Hasija : uhasija2@illinois.edu
 
+## Introduction
+
+G-Bert combines Graph Neural Networks and thr well known pre-trained model: BERT (Bidirectional Encoder Representations from Transformers) for medical code representation and medication recommendation. Graph neural networks (GNNs) are used to represent the structure information of medical codes from a medical ontology. Then this GNN representation is integrated to a transformer-based visit encoder and pre-train it on single-visit EHR data. 
+
 ## Steps to replicate/Reproducibility:
 
 ## 1. Dependencies:
@@ -44,7 +48,7 @@ We used local CPU and on GPU - 1 x NVIDIA Tesla K80: Standard_NC6 (6 cores, 56 G
 ## Baselines:
    Model	        F1 score	  PR-AUC	Jaccard Score
 G-Bert 	            0.6065 	  0.6906         0.4478   
-G-Bert G-	          0.6038	  0.6824	       0.4452    
+G-Bert G-	         0.6038	  0.6824	        0.4452    
 G-Bert G- P-			
 G-Bert P-			
 GAMENet			
