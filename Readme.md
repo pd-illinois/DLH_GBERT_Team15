@@ -15,7 +15,7 @@ medical code representation and medication recommendation. Graph neural networks
 codes from a medical ontology. Then this GNN representation is integrated to a transformer-based visit encoder and pre-train it on single-visit EHR 
 data. For our project, we reproduced this G-Bert, it's original ablations and our new ablations. 
 
-As an extension to G-Bert, we also propose a new model based on similar lines: GGPT2 which combines GNN with GPT2 model. We believed, using a Graph Neural Network (GNN) with GPT-2 for medical recommendations could also be a promising approach. GPT-2 is a powerful language model that can generate coherent and fluent text based on the context provided, while GNNs can capture the relationships between different medical concepts and entities, and leverage this information for better recommendation generation.
+As an extension to G-Bert, we also propose a new model based on similar lines: GGPT2 which combines GNN with GPT2 model. We believe, using a Graph Neural Network (GNN) with GPT-2 for medical recommendations could also be a promising approach. GPT-2 is a powerful language model that can generate coherent and fluent text based on the context provided and GNNs can capture the relationships between different medical concepts and entities, and leverage this information for better recommendation generation.
 
 
 ## Steps to replicate/Reproducibility:
@@ -66,10 +66,8 @@ GAMENet D-
 
 ## New Approach: GGPT2
 
-Since GPT-2 is trained on a large corpus of general text data, which also includes a broad range of medical knowledge, GPT-2 may also be trained on 
-EHRDataset for single visit and may prove to be a promising approach for medicial recommendations. GPT-2 has a larger model size and higher number of parameters than BERT, 
-which may allow it to capture more complex relationships between medical concepts and generate more accurate recommendations. GPT-2 generates fluent and coherent text due to its architecture, 
-which includes an autoregressive language modeling component. This could be advantageous for generating natural-sounding medical recommendations that are more likely to be understood by patients and healthcare professionals.
+Since GPT-2 is trained on a large corpus of general text data, which also includes a broad range of medical knowledge. The idea is, GPT-2 also to be trained on 
+EHRDataset for single visit and may prove to be a promising approach for medicial recommendations. GPT-2 has a larg model size and high number of parameters: 130 billion, which may allow it to capture more complex relationships between medical concepts and generate accurate recommendations. GPT-2 generates fluent and coherent text due to its architecture, which includes an autoregressive language modeling component. This could be advantageous for generating natural-sounding medical recommendations that are more likely to be understood by patients and healthcare professionals.
    
 
 # Citation
